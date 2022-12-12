@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2E1E1;
+}
+
+.container {
+    width: 1280px;
+}
+
+.cabecalho {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+
+    background-color: white;
+
+}
+
+
+.titulo {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.sub-titulo {
+    margin-top: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 0.295em;
+    color: #000000;
+
+}
+
+.menu {
+    margin-top: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 22px;
+    gap: 54px;
+
+    width: 580px;
+    height: 76px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: #E2E1E1;
+    width: 100%;
+    display: grid;
+    gap: 13px;
+    padding: 17px 13px;
+    grid-template-areas:
+     "foto1 foto1 foto2"
+     "foto3 foto4 foto2"
+    ;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+}
+
+.foto1 {
+    grid-area: foto1;
+}
+
+.foto2 {
+    grid-area: foto2;
+
+}
+
+.foto3 {
+    grid-area: foto3;
+
+}
+
+.foto4 {
+    grid-area: foto4;
+
+}
+.footer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: white;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+ footer ul {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    list-style: none;
+ }
